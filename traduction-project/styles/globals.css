@@ -25,3 +25,7 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.footer-bg {
+  background-color: #10297d;
+}
