@@ -3,6 +3,8 @@ import { navigation } from "@/constants/navbar";
 import { Dialog } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { useState } from "react";
+import Image from 'next/image';
+import logo1 from "@/assets/logo/logo_1.png";
 
 export default function NavBar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -14,7 +16,8 @@ export default function NavBar() {
         aria-label="Global"
       >
         <a href="#" className="-m-1.5 p-1.5">
-          <span className="sr-only">Your Company</span>
+          <span className="sr-only">Del Campo Capital Humano</span>
+          <Image src={logo1} alt="" className="w-12"/>
           {/* <img className="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="" /> */}
         </a>
         <div className="flex lg:hidden">
