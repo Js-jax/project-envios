@@ -3,6 +3,10 @@ import Layout from "@/components/layout";
 
 import image1 from "@/assets/undrawcontractreves9-1.webp";
 
+import services1 from "@/assets/path8014.webp";
+import services2 from "@/assets/layer1-9bD.webp";
+import services3 from "@/assets/layer1.webp";
+
 export default function Traduction() {
   return (
     <Layout>
@@ -92,16 +96,78 @@ export default function Traduction() {
             </div>
           </div>
           <div className="bg-white">
-      <div className="mx-auto max-w-7xl px-4 py-24 sm:px-6 lg:px-8">
-        <div className="rounded-2xl bg-gray-50 px-6 py-16 sm:p-16">
-          <div className="mx-auto max-w-xl lg:max-w-none">
-            <div className="text-center">
-              <h2 className="text-2xl font-bold tracking-tight text-gray-900">
-                We built our business on customer service
-              </h2>
-            </div>
-            <div className="mx-auto mt-12 grid max-w-sm grid-cols-1 gap-x-8 gap-y-10 sm:max-w-none lg:grid-cols-3">
-              {/* {incentives.map((incentive) => (
+            <div className="mx-auto max-w-7xl px-4 py-24 sm:px-6 lg:px-8">
+              <div className="rounded-2xl bg-gray-50 px-6 py-16 sm:p-16">
+                <div className="mx-auto max-w-xl lg:max-w-none">
+                  <div className="text-center">
+                    <h2 className="text-2xl font-bold tracking-tight text-gray-900">
+                      Nuestros servicios abarcan una amplia gama de soluciones
+                      personalizadas para satisfacer tus necesidades
+                    </h2>
+                  </div>
+                  <div className="mx-auto mt-12 grid max-w-sm grid-cols-1 gap-x-8 gap-y-10 sm:max-w-none lg:grid-cols-3">
+                    <div className="text-center sm:flex sm:text-left lg:block lg:text-center">
+                      <div className="sm:flex-shrink-0">
+                        <div className="flow-root">
+                          <Image
+                            className="mx-auto h-48 w-36"
+                            src={services1}
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                      <div className="mt-3 sm:ml-6 sm:mt-0 lg:ml-0 lg:mt-6">
+                        <h3 className="text-sm font-medium text-gray-900">
+                          Profesionales especializados
+                        </h3>
+                        <p className="mt-2 text-sm text-gray-500">
+                          Asegurando una traducción precisa para cualquier tipo
+                          de documento.
+                        </p>
+                      </div>
+                    </div>
+                    <div className="text-center sm:flex sm:text-left lg:block lg:text-center">
+                      <div className="sm:flex-shrink-0">
+                        <div className="flow-root">
+                          <Image
+                            className="mx-auto h-48 w-36"
+                            src={services2}
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                      <div className="mt-3 sm:ml-6 sm:mt-0 lg:ml-0 lg:mt-6">
+                        <h3 className="text-sm font-medium text-gray-900">
+                          Control de calidad
+                        </h3>
+                        <p className="mt-2 text-sm text-gray-500">
+                          Tu satisfacción es primordial, por eso aplicamos un
+                          riguroso proceso control de calidad.
+                        </p>
+                      </div>
+                    </div>
+                    <div className="text-center sm:flex sm:text-left lg:block lg:text-center">
+                      <div className="sm:flex-shrink-0">
+                        <div className="flow-root">
+                          <Image
+                            className="mx-auto h-48 w-36"
+                            src={services3}
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                      <div className="mt-3 sm:ml-6 sm:mt-0 lg:ml-0 lg:mt-6">
+                        <h3 className="text-sm font-medium text-gray-900">
+                          Comunicación efectiva
+                        </h3>
+                        <p className="mt-2 text-sm text-gray-500">
+                          Entendemos tus necesidades manteniendo una
+                          comunicación constante y abierta contigo durante todo
+                          el proceso.
+                        </p>
+                      </div>
+                    </div>
+                    {/* {incentives.map((incentive) => (
                 <div key={incentive.name} className="text-center sm:flex sm:text-left lg:block lg:text-center">
                   <div className="sm:flex-shrink-0">
                     <div className="flow-root">
@@ -114,11 +180,11 @@ export default function Traduction() {
                   </div>
                 </div>
               ))} */}
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-      </div>
-    </div>
         </main>
       }
     </Layout>
