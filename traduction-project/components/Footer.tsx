@@ -2,20 +2,6 @@
 import Image from "next/image";
 import logo1 from "@/assets/logo/logo_1.png";
 import logo2 from "@/assets/logo/logo_2.png";
-/*
-  This example requires some changes to your config:
-  
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/forms'),
-    ],
-  }
-  ```
-*/
 
 export default function Footer() {
   return (
