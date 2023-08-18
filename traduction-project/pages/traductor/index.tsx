@@ -23,10 +23,102 @@ export default function Traduction() {
                 </p>
               </div>
               <div className="mt-16 sm:mt-24 lg:mt-0 lg:flex-shrink-0 lg:flex-grow">
-                <Image src={image1} alt="" className="w-52 mx-auto"/>
+                <Image src={image1} alt="" className="w-52 mx-auto" />
               </div>
             </div>
           </div>
+          <div className="relative isolate pt-14">
+            <div className="mx-auto max-w-7xl px-8 lg:px-16">
+              <div className="mx-auto mt-16 grid max-w-2xl auto-rows-fr grid-cols-1 gap-8 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
+                <div className="flex flex-col items-start bg-white shadow-md border rounded-xl px-4 py-8 text-center">
+                  <h3 className="text-2xl font-bold tracking-tight text-gray-900 text-center">
+                    ¡Solicita una cotización hoy mismo y traduce tu documento
+                    con la mejor calidad y precio!
+                  </h3>
+                  <h5 className="text-xl font-bold tracking-tight text-gray-600 text-center mt-8 mx-auto">
+                    ¿Qué tipo de traducción necesitas?
+                  </h5>
+                  {/* <div className="grid grid-cols-1 md:grid-cols-2"></div> */}
+                </div>
+                <div className="flex flex-col items-start justify-between bg-white shadow-md border rounded-xl px-4 py-8">
+                  {/* Formulario */}
+                  <h3 className="text-2xl font-bold tracking-tight text-gray-900 text-center">
+                    ¡No esperes más y traduce tu documento hoy mismo!
+                  </h3>
+                  <form action="" className="w-full">
+                    <div>
+                      <label
+                        htmlFor="first-name"
+                        className="block text-sm font-semibold leading-6 text-gray-900"
+                      >
+                        Nombre
+                      </label>
+                      <div className="mt-2.5">
+                        <input
+                          type="text"
+                          name="first-name"
+                          id="first-name"
+                          autoComplete="given-name"
+                          className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                        />
+                      </div>
+                    </div>
+                    <div>
+                      <label
+                        htmlFor="email"
+                        className="block text-sm font-semibold leading-6 text-gray-900"
+                      >
+                        Correo Electronico
+                      </label>
+                      <div className="mt-2.5">
+                        <input
+                          type="text"
+                          name="email"
+                          id="email"
+                          autoComplete="given-name"
+                          className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                        />
+                      </div>
+                    </div>
+                    <button
+                      type="submit"
+                      className="mt-6 block w-full rounded-lg footer-bg px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm"
+                    >
+                      Enviar
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="bg-white">
+      <div className="mx-auto max-w-7xl px-4 py-24 sm:px-6 lg:px-8">
+        <div className="rounded-2xl bg-gray-50 px-6 py-16 sm:p-16">
+          <div className="mx-auto max-w-xl lg:max-w-none">
+            <div className="text-center">
+              <h2 className="text-2xl font-bold tracking-tight text-gray-900">
+                We built our business on customer service
+              </h2>
+            </div>
+            <div className="mx-auto mt-12 grid max-w-sm grid-cols-1 gap-x-8 gap-y-10 sm:max-w-none lg:grid-cols-3">
+              {/* {incentives.map((incentive) => (
+                <div key={incentive.name} className="text-center sm:flex sm:text-left lg:block lg:text-center">
+                  <div className="sm:flex-shrink-0">
+                    <div className="flow-root">
+                      <img className="mx-auto h-16 w-16" src={incentive.imageSrc} alt="" />
+                    </div>
+                  </div>
+                  <div className="mt-3 sm:ml-6 sm:mt-0 lg:ml-0 lg:mt-6">
+                    <h3 className="text-sm font-medium text-gray-900">{incentive.name}</h3>
+                    <p className="mt-2 text-sm text-gray-500">{incentive.description}</p>
+                  </div>
+                </div>
+              ))} */}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
         </main>
       }
     </Layout>

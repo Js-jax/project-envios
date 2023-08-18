@@ -10,7 +10,7 @@ export default function Footer() {
         Footer
       </h2>
       <div className="mx-auto max-w-7xl p-8 sm:pt-24 lg:px-8 lg:py-24">
-        <div className="xl:grid xl:grid-cols-3 xl:gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 xl:gap-8">
           <div className="space-y-8">
             {/* <Image src={logo1} alt={'Del Campo Capital Humano'}/> */}
             <Image
