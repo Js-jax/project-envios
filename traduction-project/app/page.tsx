@@ -7,7 +7,7 @@ import assist4 from "@/assets/asistente3.webp";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-8 sm:pt-24 lg:px-8">
+    <main className="flex min-h-screen flex-col items-center  p-8 sm:pt-24 lg:px-8">
       <div className="relative isolate pt-14">
         <div className="mx-auto max-w-7xl lg:flex lg:items-center lg:gap-x-10 lg:px-8">
           <div className="mx-auto max-w-2xl lg:mx-0 lg:flex-auto">
@@ -34,18 +34,36 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="relative isolate pt-14">
-        <div className="mx-auto max-w-2xl lg:mx-0">
-          <h2 className="text-xl font-bold tracking-tight text-gray-900 sm:text-6xl text-center">
+      <div className="relative isolate pt-14 my-10">
+        <div className="mx-auto max-w-2xl flex items-center">
+          <h2 className="font-bold tracking-tight text-gray-900 sm:text-4xl text-center mx-auto">
             Estas son algunas tareas que puede realizar su asistente legal
             virtual
           </h2>
         </div>
-        <div className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
-          <div></div>
-          <div></div>
+        <div className="mx-auto my-12 max-w-7xl lg:flex lg:items-center lg:gap-x-10 lg:px-8">
+          <div className="mt-16 sm:mt-24 lg:mt-0 lg:flex-shrink-0 lg:flex-grow">
+            {/* <Image/> */}
+            <Image
+              src={assist2}
+              alt="Asistente 1"
+              className="w-52 border rounded-lg mx-auto"
+            />
+          </div>
+          <div className="mx-auto max-w-2xl lg:mx-0 lg:flex-auto">
+            <div className="bg-gray-200 border rounded-xl shadow-md py-4 px-5 w-full my-5">
+              <p className="text-center text-gray-600 font-">Recepcionista Legal</p>
+            </div>
+            <div className="bg-gray-200 border rounded-xl shadow-md py-4 px-5 w-full my-5">
+              <p className="text-center text-gray-600">Asistente Legal</p>
+            </div>
+            <div className="bg-gray-200 border rounded-xl shadow-md py-4 px-5 w-full my-5">
+              <p className="text-center text-gray-600">Traducciones</p>
+            </div>
+          </div>
         </div>
       </div>
     </main>
   );
 }
+
