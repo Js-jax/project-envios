@@ -36,10 +36,10 @@ export default function Home() {
       </div>
       <div className="relative isolate pt-14 my-10">
         <div className="mx-auto max-w-2xl flex items-center">
-          <h2 className="font-bold tracking-tight text-gray-900 sm:text-4xl text-center mx-auto">
+          <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-4xl mx-auto text-center">
             Estas son algunas tareas que puede realizar su asistente legal
             virtual
-          </h2>
+          </h1>
         </div>
         <div className="mx-auto my-12 max-w-7xl lg:flex lg:items-center lg:gap-x-10 lg:px-8">
           <div className="mt-16 sm:mt-24 lg:mt-0 lg:flex-shrink-0 lg:flex-grow">
