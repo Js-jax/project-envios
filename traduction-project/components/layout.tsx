@@ -1,3 +1,4 @@
+import "@/styles/globals.css";
 import Footer from "./Footer";
 import NavBar from "./Navbar";
 
