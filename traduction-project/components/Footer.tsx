@@ -5,11 +5,11 @@ import logo2 from "@/assets/logo/logo_2.png";
 
 export default function Footer() {
   return (
-    <footer className="bg-white" aria-labelledby="footer-heading">
+    <footer className="footer-bg" aria-labelledby="footer-heading">
       <h2 id="footer-heading" className="sr-only">
         Footer
       </h2>
-      <div className="mx-auto max-w-7xl p-8 sm:pt-24 lg:px-8 lg:py-24">
+      <div className="mx-auto max-w-7xl p-8 sm:pt-24 lg:px-8 lg:pt-24">
         <div className="grid grid-cols-1 md:grid-cols-3 xl:gap-8">
           <div className="space-y-8">
             {/* <Image src={logo1} alt={'Del Campo Capital Humano'}/> */}
@@ -26,20 +26,20 @@ export default function Footer() {
             /> */}
           <div className="md:gap-8">
             <div className="gap-8">
-              <h3 className="text-sm font-semibold leading-6 text-gray-900">
+              <h3 className="text-md font-semibold leading-6 text-white">
                 Contacto
               </h3>
               <div className="space-y-5">
-                <p className="text-sm leading-6 text-gray-600 hover:text-gray-900">
+                <p className="text-sm leading-6 text-white hover:text-gray-50">
                   contacto@delcampoch.com
                 </p>
               </div>
-              <div className="mt-10 md:mt-0">
-                <h3 className="text-sm font-semibold leading-6 text-gray-900">
+              <div className="mt-10 md:mt-5">
+                <h3 className="text-md font-semibold leading-6 text-white">
                   Ubicación
                 </h3>
                 <div className="space-y-5">
-                  <p className="text-sm leading-6 text-gray-600 hover:text-gray-900">
+                  <p className="text-sm leading-6 text-white hover:text-gray-50">
                     Insurgentes Sur 682 Col. Del Valle alcaldía Benito Juarez
                     CP. 03100 CDMX.
                   </p>
@@ -65,7 +65,7 @@ export default function Footer() {
                 </a>
               ))} */}
           </div>
-          <p className="mt-8 text-xs leading-5 text-gray-500 md:order-1 md:mt-0">
+          <p className="mt-8 text-xs leading-5 text-white md:order-1 md:mt-0">
             &copy; 2023 Tekamon117, Inc. All rights reserved.
           </p>
         </div>
