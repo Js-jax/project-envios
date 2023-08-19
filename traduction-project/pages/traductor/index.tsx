@@ -106,7 +106,7 @@ export default function Traduction() {
                     </h2>
                   </div>
                   <div className="mx-auto mt-12 grid max-w-sm grid-cols-1 gap-x-8 gap-y-10 sm:max-w-none lg:grid-cols-3">
-                    <div className="text-center sm:flex sm:text-left lg:block lg:text-center">
+                    <div className="border rounded-xl bg-gray-100 py-5 px-5 shadow-md text-center sm:flex sm:text-left lg:block lg:text-center">
                       <div className="sm:flex-shrink-0">
                         <div className="flow-root">
                           <Image
@@ -117,69 +117,56 @@ export default function Traduction() {
                         </div>
                       </div>
                       <div className="mt-3 sm:ml-6 sm:mt-0 lg:ml-0 lg:mt-6">
-                        <h3 className="text-sm font-medium text-gray-900">
+                        <h3 className="text-xl font-medium text-gray-900">
                           Profesionales especializados
                         </h3>
-                        <p className="mt-2 text-sm text-gray-500">
+                        <p className="mt-2 my-auto text-md text-gray-500">
                           Asegurando una traducción precisa para cualquier tipo
                           de documento.
                         </p>
                       </div>
                     </div>
-                    <div className="text-center sm:flex sm:text-left lg:block lg:text-center">
+                    <div className="border rounded-xl bg-gray-100 py-5 px-5 shadow-md text-center sm:flex sm:text-left lg:block lg:text-center">
                       <div className="sm:flex-shrink-0">
                         <div className="flow-root">
                           <Image
-                            className="mx-auto h-48 w-36"
+                            className="mx-auto h-48 w-40"
                             src={services2}
                             alt=""
                           />
                         </div>
                       </div>
                       <div className="mt-3 sm:ml-6 sm:mt-0 lg:ml-0 lg:mt-6">
-                        <h3 className="text-sm font-medium text-gray-900">
+                        <h3 className="text-xl font-medium text-gray-900">
                           Control de calidad
                         </h3>
-                        <p className="mt-2 text-sm text-gray-500">
+                        <p className="mt-2 my-auto text-md text-gray-500">
                           Tu satisfacción es primordial, por eso aplicamos un
                           riguroso proceso control de calidad.
                         </p>
                       </div>
                     </div>
-                    <div className="text-center sm:flex sm:text-left lg:block lg:text-center">
+                    <div className="border rounded-xl bg-gray-100 py-5 px-5 shadow-md text-center sm:flex sm:text-left lg:block lg:text-center">
                       <div className="sm:flex-shrink-0">
                         <div className="flow-root">
                           <Image
-                            className="mx-auto h-48 w-36"
+                            className="mx-auto h-48 w-40"
                             src={services3}
                             alt=""
                           />
                         </div>
                       </div>
                       <div className="mt-3 sm:ml-6 sm:mt-0 lg:ml-0 lg:mt-6">
-                        <h3 className="text-sm font-medium text-gray-900">
+                        <h3 className="text-xl font-medium text-gray-900">
                           Comunicación efectiva
                         </h3>
-                        <p className="mt-2 text-sm text-gray-500">
+                        <p className="mt-2 text-md text-gray-500 my-auto">
                           Entendemos tus necesidades manteniendo una
                           comunicación constante y abierta contigo durante todo
                           el proceso.
                         </p>
                       </div>
                     </div>
-                    {/* {incentives.map((incentive) => (
-                <div key={incentive.name} className="text-center sm:flex sm:text-left lg:block lg:text-center">
-                  <div className="sm:flex-shrink-0">
-                    <div className="flow-root">
-                      <img className="mx-auto h-16 w-16" src={incentive.imageSrc} alt="" />
-                    </div>
-                  </div>
-                  <div className="mt-3 sm:ml-6 sm:mt-0 lg:ml-0 lg:mt-6">
-                    <h3 className="text-sm font-medium text-gray-900">{incentive.name}</h3>
-                    <p className="mt-2 text-sm text-gray-500">{incentive.description}</p>
-                  </div>
-                </div>
-              ))} */}
                   </div>
                 </div>
               </div>
