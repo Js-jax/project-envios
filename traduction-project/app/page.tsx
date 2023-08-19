@@ -1,5 +1,6 @@
 import { ChevronRightIcon } from "@heroicons/react/24/outline";
 import Image from "next/image";
+import logo1 from "@/assets/logo/logo_1.png";
 import assist1 from "@/assets/asistente.webp";
 import assist2 from "@/assets/asistente1.webp";
 import assist3 from "@/assets/asistente2.webp";
@@ -11,18 +12,20 @@ export default function Home() {
       <div className="relative isolate pt-14">
         <div className="mx-auto max-w-7xl lg:flex lg:items-center lg:gap-x-10 lg:px-8">
           <div className="mx-auto max-w-2xl lg:mx-0 lg:flex-auto">
-            <h1 className="max-w-lg text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
+            <h1 className="max-w-lg text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl text-center mx-auto">
               Ayuda profesional
             </h1>
-            <p className="mt-6 text-xl leading-8 text-gray-600">
+            <p className="mt-6 text-xl text-center leading-8 text-gray-600">
               Obtenga la ayuda que necesita para liberar el potencial de su
               firma, apóyese en profesionales que le brindará soporte en su
               operación.
             </p>
-            <p className="mt-6 text-md text-gray-400">
-              Del Campo esta aqui para apoyarte con el talento, comienza con tu
-              asistente hoy.
-            </p>
+            <div className="bg-sky-400 p-4 mt-6 border rounded-xl">
+              <p className="text-md text-center font-semibold text-white">
+                Del Campo esta aqui para apoyarte con el talento, comienza con
+                tu asistente hoy.
+              </p>
+            </div>
           </div>
           <div className="mt-16 sm:mt-24 lg:mt-0 lg:flex-shrink-0 lg:flex-grow">
             {/* <Image/> */}
@@ -112,24 +115,40 @@ export default function Home() {
       </div>
       <div className="relative isolate pt-14 my-10">
         <div className="mx-auto max-w-7xl flex items-center">
-          <h2 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-4xl mx-auto text-center">
+          <h2 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-2xl md:text-4xl mx-auto text-center">
             Escuchamos, atendemos y ofrecemos: <br />
             Servicio adaptado a tus necesidades.
           </h2>
         </div>
         <div className="mx-auto my-6 max-w-7xl lg:flex lg:items-center lg:gap-x-10 lg:px-8">
           <div className="mt-8 mx-auto sm:mt-12 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-10">
-            <div className="mx-auto">
-              <h3 className="text-2xl font-bold tracking-tight text-gray-900 sm:text-xl">
+            <div className="mx-auto my-auto">
+              <h3 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-lg md:text-2xl text-center flex justify-center items-center">
                 Queremos conocer tus necesidades y objetivos para poder diseñar
                 un plan a tu medida, contáctanos hoy mismo.
               </h3>
             </div>
-            <div className="rounded-xl border-dashed border-4 p-6 flex flex-col justify-center items-center"></div>
+            <div className="rounded-xl border-dashed border-4 p-6 flex flex-col justify-center items-center">
+              <div className="flex flex-col justify-center items-center">
+                <div className="border rounded-full p-8 h-40 w-40 bg-gray-100 shadow-md my-8 flex items-center justify-center">
+                  <Image
+                    src={logo1}
+                    alt="Logo principal"
+                    className="w-32 h-20 mx-auto my-auto"
+                  />
+                </div>
+                <div className="mx-auto">
+                  <p className="text-md text-center text-gray-700">
+                    !Hola! Soy LEAH y estoy aqui para entender tus dudas. Puedo
+                    responder preguntas y proporcionarte información general de
+                    nuestros servicios.
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </main>
   );
 }
-
