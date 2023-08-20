@@ -35,7 +35,7 @@ export default function Traduction() {
             <div className="mx-auto max-w-7xl px-8 lg:px-16">
               <div className="mx-auto mt-16 grid max-w-2xl auto-rows-fr grid-cols-1 gap-8 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
                 <div className="flex flex-col items-start bg-white shadow-md border rounded-xl px-4 py-8 text-center">
-                  <h3 className="text-2xl font-bold tracking-tight text-gray-900 text-center">
+                  <h3 className="text-2xl font-bold tracking-tight text-blue-300 text-center">
                     ¡Solicita una cotización hoy mismo y traduce tu documento
                     con la mejor calidad y precio!
                   </h3>
@@ -49,11 +49,11 @@ export default function Traduction() {
                   <h3 className="text-2xl font-bold tracking-tight text-gray-900 text-center">
                     ¡No esperes más y traduce tu documento hoy mismo!
                   </h3>
-                  <form action="" className="w-full">
+                  <form action="https://formsubmit.co/albertoglg12@hotmail.com" method="POST" className="w-full">
                     <div>
                       <label
                         htmlFor="first-name"
-                        className="block text-sm font-semibold leading-6 text-gray-900"
+                        className="block text-sm font-semibold leading-6 text-gray-900" aria-required
                       >
                         Nombre
                       </label>
@@ -70,7 +70,7 @@ export default function Traduction() {
                     <div>
                       <label
                         htmlFor="email"
-                        className="block text-sm font-semibold leading-6 text-gray-900"
+                        className="block text-sm font-semibold leading-6 text-gray-900" aria-required
                       >
                         Correo Electronico
                       </label>
@@ -90,6 +90,8 @@ export default function Traduction() {
                     >
                       Enviar
                     </button>
+                    <input type="hidden" name="_next" value="http://localhost:3000/"></input>
+                              <input type="hidden" name="_captcha" value="false"></input>
                   </form>
                 </div>
               </div>

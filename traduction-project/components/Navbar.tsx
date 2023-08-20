@@ -13,12 +13,12 @@ export default function NavBar() {
   return (
     <header className="bg-white">
       <nav
-        className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8"
+        className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8 text-6xl"
         aria-label="Global"
       >
         <a href="#" className="-m-1.5 p-1.5">
           <span className="sr-only">Del Campo Capital Humano</span>
-          <Image src={logo1} alt="" className="w-12"/>
+          <Image src={logo1} alt="" className="w-16"/>
           {/* <img className="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="" /> */}
         </a>
         <div className="flex lg:hidden">

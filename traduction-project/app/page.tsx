@@ -11,17 +11,17 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center  p-8 sm:pt-24 lg:px-8">
       <div className="relative isolate pt-14">
         <div className="mx-auto max-w-7xl lg:flex lg:items-center lg:gap-x-10 lg:px-8">
-          <div className="mx-auto max-w-2xl lg:mx-0 lg:flex-auto">
-            <h1 className="max-w-lg text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl text-center mx-auto">
+          <div className="mx-4 max-w-5xl lg:mx-8 lg:flex-auto">
+            <h1 className="max-w-5xl text-6xl font-bold tracking-tight text-gray-900 sm:text-6.5xl text-left mx-auto">
               Ayuda profesional
             </h1>
-            <p className="mt-6 text-xl text-center leading-8 text-gray-600">
+            <p className="max-w-3xl mt-6 text-xl text-left leading-8 text-gray-600">
               Obtenga la ayuda que necesita para liberar el potencial de su
               firma, apóyese en profesionales que le brindará soporte en su
               operación.
             </p>
-            <div className="bg-sky-400 p-4 mt-6 border rounded-xl">
-              <p className="text-md text-center font-semibold text-white">
+            <div className="bg-sky-400 p-4 mt-5 border rounded-xl">
+              <p className="max-w-4xls text-md text-left font-bold text-white">
                 Del Campo esta aqui para apoyarte con el talento, comienza con
                 tu asistente hoy.
               </p>
@@ -32,20 +32,20 @@ export default function Home() {
             <Image
               src={assist1}
               alt="Asistente 1"
-              className="w-52 border rounded-lg mx-auto"
+              className="w-60 border rounded-lg mx-24"
             />
           </div>
         </div>
       </div>
       <div className="relative isolate pt-14 my-10">
-        <div className="mx-auto max-w-2xl flex items-center">
-          <h2 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-4xl mx-auto text-center">
+        <div className="mx-auto max-w-6xl flex items-center">
+          <h2 className="text-6xl font-bold tracking-tight text-gray-900 sm:text-5xl mx-auto text-center">
             Estas son algunas tareas que puede realizar su asistente legal
             virtual
           </h2>
         </div>
         <div className="mx-auto my-12 max-w-7xl lg:flex lg:items-center lg:gap-x-10 lg:px-8">
-          <div className="mt-16 sm:mt-24 lg:mt-0 lg:flex-shrink-0 lg:flex-grow">
+          <div className="mt-16 sm:mt-24 lg:mt-2 lg:flex-shrink-0 lg:flex-grow">
             {/* <Image/> */}
             <Image
               src={assist2}
@@ -69,52 +69,53 @@ export default function Home() {
         </div>
       </div>
       <div className="relative isolate pt-14 my-10">
-        <div className="mx-auto max-w-2xl flex items-center">
-          <h2 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-4xl mx-auto text-center">
+        <div className="mx-auto max-w-6xl flex items-center">
+          <h2 className="text-6xl font-bold tracking-tight text-gray-900 sm:text-6xl mx-auto text-center">
             ¿Por qué nuestro asistente virtual?
           </h2>
         </div>
-        <div className="mx-auto my-6 max-w-7xl lg:flex lg:items-center lg:gap-x-10 lg:px-8">
+        <div className="mx-auto my-6 max-w-9xl lg:flex lg:items-center lg:gap-x-10 lg:px-8">
           <div className="mt-8 mx-auto sm:mt-12 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
             <div className="mx-auto">
-              <div className="w-40 h-40 flex flex-col justify-center items-center bg-sky-400 border rounded-full p-8 hover:-translate-y-1 hover:scale-110 transition delay-150 duration-300 ease-in-out">
-                <p className="text-white text-center">
+              <div className="w-60 h-60 flex flex-col justify-center items-center bg-sky-400 border rounded-full p-8 hover:-translate-y-1 hover:scale-110 transition delay-150 duration-300 ease-in-out">
+                <p className="text-white text-center font-bold text-2xl">
                   Relación coste-beneficio
                 </p>
               </div>
             </div>
             <div className="mx-auto">
-              <div className="w-40 h-40 flex flex-col justify-center items-center bg-sky-400 border rounded-full p-8 hover:-translate-y-1 hover:scale-110 transition delay-150 duration-300 ease-in-out">
-                <p className="text-white text-center">Bilingual</p>
+              <div className="w-60 h-60 flex flex-col justify-center items-center bg-sky-400 border rounded-full p-8 hover:-translate-y-1 hover:scale-110 transition delay-150 duration-300 ease-in-out">
+                <p className="text-white text-center font-bold text-2xl">Bilingual</p>
               </div>
             </div>
             <div className="mx-auto">
-              <div className="w-40 h-40 flex flex-col justify-center items-center bg-sky-400 border rounded-full p-8 hover:-translate-y-1 hover:scale-110 transition delay-150 duration-300 ease-in-out">
-                <p className="text-white text-center">
+              <div className="w-60 h-60 flex flex-col justify-center items-center bg-sky-400 border rounded-full p-8 hover:-translate-y-1 hover:scale-110 transition delay-150 duration-300 ease-in-out">
+                <p className="text-white text-center font-bold text-2xl">
                   Proceso de contratación rápido y eficiente
                 </p>
               </div>
             </div>
             <div className="mx-auto">
-              <div className="w-40 h-40 flex flex-col justify-center items-center bg-sky-400 border rounded-full p-8 hover:-translate-y-1 hover:scale-110 transition delay-150 duration-300 ease-in-out">
-                <p className="text-white text-center">Personal capacitado</p>
+              <div className="w-60 h-60 flex flex-col justify-center items-center bg-sky-400 border rounded-full p-8 hover:-translate-y-1 hover:scale-110 transition delay-150 duration-300 ease-in-out">
+                <p className="text-white text-center font-bold text-2xl">Personal capacitado</p>
               </div>
             </div>
             <div className="mx-auto">
-              <div className="w-40 h-40 flex flex-col justify-center items-center bg-sky-400 border rounded-full p-8 hover:-translate-y-1 hover:scale-110 transition delay-150 duration-300 ease-in-out">
-                <p className="text-white text-center">Part-time & Full-time</p>
+              <div className="w-60 h-60 flex flex-col justify-center items-center bg-sky-400 border rounded-full p-8 hover:-translate-y-1 hover:scale-110 transition delay-150 duration-300 ease-in-out">
+                <p className="text-white  text-center font-bold text-2xl">Part-time & Full-time</p>
               </div>
             </div>
             <div className="mx-auto">
-              <div className="w-40 h-40 flex flex-col justify-center items-center bg-sky-400 border rounded-full p-8 hover:-translate-y-1 hover:scale-110 transition delay-150 duration-300 ease-in-out">
-                <p className="text-white text-center">Month to month</p>
+              <div className="w-60 h-60 flex flex-col justify-center items-center bg-sky-400 border rounded-full p-8 hover:-translate-y-1 hover:scale-110 transition delay-150 duration-300 ease-in-out">
+                <p className="text-white text-center font-bold text-2xl">Month to month</p>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div className="relative isolate pt-14 my-10">
+      <div className="relative isolate pt-14 my-10" id="ls">
         <div className="mx-auto max-w-7xl flex items-center">
+          
           <h2 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-2xl md:text-4xl mx-auto text-center">
             Escuchamos, atendemos y ofrecemos: <br />
             Servicio adaptado a tus necesidades.
