@@ -68,12 +68,16 @@ export default function Home() {
           </div>
         </div>
       </div>
+
+
       <div className="relative isolate pt-14 my-10">
         <div className="mx-auto max-w-6xl flex items-center">
           <h2 className="text-6xl font-bold tracking-tight text-gray-900 sm:text-6xl mx-auto text-center">
             ¿Por qué nuestro asistente virtual?
           </h2>
         </div>
+
+        
         <div className="mx-auto my-6 max-w-9xl lg:flex lg:items-center lg:gap-x-10 lg:px-8">
           <div className="mt-8 mx-auto sm:mt-12 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
             <div className="mx-auto">
