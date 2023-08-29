@@ -38,6 +38,9 @@ export default function Home() {
               </p>
             </button>
           </div>
+
+
+
           <div className="mt-16 sm:mt-24 lg:mt-0 lg:flex-shrink-0 lg:flex-grow">
             {/* <Image/> */}
             <Image
