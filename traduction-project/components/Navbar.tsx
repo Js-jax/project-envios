@@ -5,6 +5,7 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { useState } from "react";
 import Image from 'next/image';
 import logo1 from "@/assets/logo/logo_1.png";
+import logos from "@/assets/logo/logos.png";
 import Link from "next/link";
 
 export default function NavBar() {
@@ -18,7 +19,7 @@ export default function NavBar() {
       >
         <a href="#" className="-m-1.5 p-1.5">
           <span className="sr-only">Del Campo Capital Humano</span>
-          <Image src={logo1} alt="" className="w-16"/>
+          <Image src={logos} alt="" className="w-28" />
           {/* <img className="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="" /> */}
         </a>
         <div className="flex lg:hidden">

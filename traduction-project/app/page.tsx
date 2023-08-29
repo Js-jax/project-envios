@@ -3,6 +3,7 @@ import Image from "next/image";
 import AccordionItem from '../components/AccordionItem';
 
 import logo1 from "@/assets/logo/logo_1.png";
+import logos from "@/assets/logo/logos.png"
 import assist1 from "@/assets/asistente.webp";
 import assist2 from "@/assets/asistente1.webp";
 import assist3 from "@/assets/asistente2.webp";
@@ -14,31 +15,28 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-  p-8 sm:pt-24 lg:px-8">
       <div style={{ position: 'relative' }}>
-        <div style={{ position: 'absolute', top: 0, right: 0 }}>
+        {/* <div style={{ position: 'absolute', top: 0, right: 0 }}>
           <Image
             src={Rectangle}
             alt="Asistente 1"
             className="right-4"
           />
-        </div>
+        </div> */}
       </div>
       <div className="relative isolate pt-14">
         <div className="mx-auto max-w-7xl lg:flex lg:items-center lg:gap-x-10 lg:px-8">
           <div className="mx-4 max-w-5xl lg:mx-8 lg:flex-auto">
             <h1 className="max-w-5xl text-6xl font-bold tracking-tight text-gray-900 sm:text-6.5xl text-left mx-auto">
-              Ayuda profesional
+              Un cliente satisfecho es un cliente feliz
             </h1>
             <p className="max-w-3xl mt-6 text-xl text-left leading-8 text-gray-800">
-              Obtenga la ayuda que necesita para liberar el potencial de su
-              firma, apóyese en profesionales que le brindará soporte en su
-              operación.
+              Cotiza con nosotros y veras por qué Manda Todo A.S es tu mejor opción.
             </p>
-            <div className="bg-sky-400 p-4 mt-5 border rounded-x1">
+            <button className="bg-orange-500 p-4 mt-2 border rounded-xl ">
               <p className="max-w-4xls text-md text-left font-bold text-white">
-                Del Campo esta aqui para apoyarte con el talento, comienza con
-                tu asistente hoy.
+                Sobre Nosotros
               </p>
-            </div>
+            </button>
           </div>
           <div className="mt-16 sm:mt-24 lg:mt-0 lg:flex-shrink-0 lg:flex-grow">
             {/* <Image/> */}

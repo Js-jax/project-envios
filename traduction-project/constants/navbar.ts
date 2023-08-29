@@ -1,7 +1,9 @@
 export const navigation = [
     { name: 'Inicio', href: '/' },
-    { name: 'Recepcionista legal', href: '/traductor' },
-    { name: 'Asistente legal', href:'#ls '},
-    { name: 'Traducción de documentos', href: '/traductor' },
-    { name: 'Orden y pago', href: '/pay' },
+    { name: 'Rastreo', href: '/traductor' },
+    { name: 'Cotizacion', href:'#ls '},
+    { name: 'Envios', href: '/traductor' },
+    { name: 'Crear Cuenta', href: '/Logout' },
+    { name: 'Iniciar Sesion', href: '/Login' },
+
 ]
